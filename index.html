@@ -4,11 +4,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TravelIn - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
+    <div id="main_wrapper">
+        <header id="header">
+            <section class="logo">TravelIn</section>
+            <nav>
+                <table class="desktop-nav">
+                    <tr>
+                        <td><a href="#" class="home">Home</a></td>
+                        <td><a href="#our_package" class="our-package">Our Package</a></td>
+                        <td><a href="#call_us" class="call-us">Call Us</a></td>
+                    </tr>
+                </table>
+                <div class="mobile-nav" id="mobile_nav">
+                    <ul>
+                        <li><a href="#" class="home">Home</a></li>
+                        <li><a href="#our_package" class="our-package">Our Package</a></li>
+                        <li><a href="#call_us" class="call-us">Call Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hamburger-icon" id="hamburger_icon">&#9776;</div>
+        </header>
+        <div class="header-filler">
+            <section class="logo">TravelIn</section>
+            <nav>
+                <table class="desktop-nav">
+                    <tr>
+                        <td><a href="#" class="home">Home</a></td>
+                        <td><a href="#our_package" class="our-package">Our Package</a></td>
+                        <td><a href="#call_us" class="call-us">Call Us</a></td>
+                    </tr>
+                </table>
+                <div class="mobile-nav" id="mobile_nav">
+                    <ul>
+                        <li><a href="#" class="home">Home</a></li>
+                        <li><a href="#our_package" class="our-package">Our Package</a></li>
+                        <li><a href="#call_us" class="call-us">Call Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hamburger-icon" id="hamburger_icon">&#9776;</div>
+        </div>
+        <main>
+            <section class="heading">
+                <h1>TravelIn, Your Trusted Travel Agent&#39;s</h1>
+                <h3>Your happiness is our happiness</h3>
+            </section>
+            <section class="content">
+                <section class="blog">
+                    <div class="content-image">
+                        <div class="banner-displayer" id="banner_displayer">
+                            <div class="banner"><img src="assets/img/banners/borobudur-temple.webp"
+                                    alt="Picture of Borobudur Temple" /></div>
+                            <div class="banner"><img src="assets/img/banners/pura-ulun-danu-bratan.webp"
+                                    alt="Picture of Pura Ulun Danu Bratan" /></div>
+                            <div class="banner"><img src="assets/img/banners/merlion-park.webp"
+                                    alt="Picture of Merlion Park" /></div>
+                            <div class="banner"><img src="assets/img/banners/chureito-pagoda.webp"
+                                    alt="Picture of Chureito Pagoda" /></div>
+                            <div class="banner"><img src="assets/img/banners/sydney-opera-house.webp"
+                                    alt="Picture of Sydney Opera House" /></div>
+                        </div>
+                    </div>
+                    <section class="review">
+                        <q><i>Liburan menjadi menyenangkan bersama TravelIn.</i></q>
+                        <section class="reviewer-info">
+                            <img src="https://img.freepik.com/free-vector/hand-drawn-muslim-girl-education-illustration_23-2150709361.jpg?t=st=1722171200~exp=1722174800~hmac=86c2d81247fc2c6035ebe1cece873795a190cba2aadee6202768c03e6d210a1a&w=740"
+                                alt="Florence Hughes Photo Profile" />
+                            <section class="reviewer-bio">
+                                <section class="reviewer-name"><strong>Florence Hughes</strong></section>
+                                <section class="reviewer-job"><i>Ibu Rumah Tangga, 28</i></section>
+                            </section>
+                        </section>
+                    </section>
+                    <hr />
+                    <article class="benefits">
+                        <p>
+                            <strong>Penawaran yang kami tawarkan:</strong>
+                        </p>
+                        <section class="benefits-list">
+                            <div>
+                                <div>1</div>
+                                <p><strong>Harga : </strong> kami memberikan harga yang relatif terjangkau
+                                </p>
+                            </div>
+                            <div>
+                                <div>2</div>
+                                <p><strong>Pelayanan : </strong> kami memberikan pelayanan yang terbaik untuk semua
+                                    penumpang</p>
+                            </div>
+                            <div>
+                                <div>3</div>
+                                <p><strong>Bantuan : </strong> customer care melayani menerima semua keluhan
+                                </p>
+                            </div>
+                        </section>
+                    </article>
+                </section>
+                <aside id="contact_us">
+                    <section class="contact-us-title">
+                        <h3>Contact Us</h3>
+                        <p>Sales kami akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                    </section>
+                    <form id="contact_us_form">
+                        <section class="name-input">
+                            <label for="name_input">Your Name:</label>
+                            <input type="text" id="name_input" name="name_input" placeholder="First and last name" />
+                            <span class="error-msg" id="name_input_error">Please enter a valid name!</span>
+                        </section>
+                        <section class="email-input">
+                            <label for="email_input">Email Address:</label>
+                            <input type="email" id="email_input" name="email_input" placeholder="example@email.com" />
+                            <span class="error-msg" id="email_input_error">Please enter a valid email address!</span>
+                        </section>
+                        <section class="interest-input">
+                            <label for="interest_input">What are you interested in?</label>
+                            <select id="interest_input" name="interest_input">
+                                <option value="">Select option</option>
+                                <option value="Travel">Travel</option>
+                                <option value="Culinary">Culinary</option>
+                                <option value="Culture">Culture</option>
+                            </select>
+                            <span class="error-msg" id="interest_input_error">Please select your interest!</span>
+                        </section>
+                        <button type="submit" id="send_button">SEND</button>
+                    </form>
+                </aside>
+            </section>
+            <section class="our-package" id="our_package">
+                <section>
+                    <h2>Our Package</h2>
+                </section>
+                <section class="packages">
+                    <article class="package">
+                        <div><img src="assets/img/icons/location-dot.svg" alt="Location Dot Icon"></div>
+                        <section>
+                            <h4 class="destination">Bali</h4>
+                            <p class="description">Travel dan wisata di Bali.</p>
+                        </section>
+                    </article>
+                    <article class="package">
+                        <div><img src="assets/img/icons/location-dot.svg" alt="Location Dot Icon"></div>
+                        <section>
+                            <h4 class="destination">Jepang</h4>
+                            <p class="description">Travel dan wisata di Jepang.</p>
+                        </section>
+                    </article>
+                    <article class="package">
+                        <div><img src="assets/img/icons/location-dot.svg" alt="Location Dot Icon"></div>
+                        <section>
+                            <h4 class="destination">Singapura</h4>
+                            <p class="description">Travel dan wisata di Singapura.</p>
+                        </section>
+                    </article>
+                </section>
+                <hr />
+                <section class="packages">
+                    <article class="package">
+                        <div><img src="assets/img/icons/location-dot.svg" alt="Location Dot Icon"></div>
+                        <section>
+                            <h4 class="destination">Bandung</h4>
+                            <p class="description">Travel dan wisata di Bandung.</p>
+                        </section>
+                    </article>
+                    <article class="package">
+                        <div><img src="assets/img/icons/location-dot.svg" alt="Location Dot Icon"></div>
+                        <section>
+                            <h4 class="destination">Surabaya</h4>
+                            <p class="description">Travel dan wisata di Surabaya.</p>
+                        </section>
+                    </article>
+                    <article class="package">
+                        <div><img src="assets/img/icons/location-dot.svg" alt="Location Dot Icon"></div>
+                        <section>
+                            <h4 class="destination">Jakarta</h4>
+                            <p class="description">Travel dan wisata di Jakarta.</p>
+                        </section>
+                    </article>
+                </section>
 
+            </section>
+            <section class="closing" id="call_us">
+                <div>
+                    <h2>Your Closing Argument Headline</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae, libero magni sed
+                        a dolorem consequuntur eum, dolore laborum ad delectus labore ipsa impedit quibusdam quae eaque
+                        placeat nisi dolor!
+                    </p>
+                </div>
+                <a href="#" class="cta">CALL TO ACTION</a>
+            </section>
+        </main>
+        <footer>
+            <section class="logo">TravelIn</section>
+            <section>Terms of Service|Privacy Policy</section>
+            <section class="copyright">
+                Copyright &copy; 2024 TravelIn
+            </section>
+            <section>
+                By Abdu Muhammad Solihin</a>
+            </section>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
